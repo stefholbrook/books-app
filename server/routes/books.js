@@ -3,9 +3,9 @@ const pool = require('../db')
 
 const router = Router()
 
-router.get('/', (req, res, next) => {
+router.get('/', (request, response, next) => {
   pool.query('SELECT * FROM books ORDER BY id ASC', (err, res) => {
-    if (err) next(err)
+    if (err) return next(err)
 
     response.json(res.rows)
   })
