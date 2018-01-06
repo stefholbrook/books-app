@@ -40,3 +40,4 @@ jspm_packages
 .env
 Procfile.development
 dist
+secrets

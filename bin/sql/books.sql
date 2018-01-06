@@ -13,3 +13,9 @@ CREATE TABLE stores(
   address character varying(50),
   phone int
 );
+
+INSERT INTO books(title, author, pages, price)
+VALUES
+('American Gods', 'Neil Gaiman', 300, 8.99),
+('1984', 'George Orwell', 150, 10.99),
+('Do Androids Dream of Electric Sheep', 'Phillip K. Dick', 320, 8);
