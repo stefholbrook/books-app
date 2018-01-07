@@ -42,3 +42,4 @@ Procfile.development
 dist
 secrets
 server/node_modules
+client/node_modules
