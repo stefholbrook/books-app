@@ -19,3 +19,7 @@ VALUES
 ('American Gods', 'Neil Gaiman', 300, 8.99),
 ('1984', 'George Orwell', 150, 10.99),
 ('Do Androids Dream of Electric Sheep', 'Phillip K. Dick', 320, 8);
+
+INSERT INTO stores(name, address, phone)
+VALUES
+('Book and Nobles', '1234 Samwise St.', 1234567);
