@@ -16,5 +16,8 @@
     "express": "^4.16.2",
     "pg": "^7.4.1"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
 }
