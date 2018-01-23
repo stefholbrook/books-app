@@ -11,7 +11,7 @@ router.get('/', (request, response, next) => {
   })
 })
 
-router.post('/add', (request, response, next) => {
+router.post('/add_store', (request, response, next) => {
   const { name, address, phone } = request.body
 
   pool.query(
