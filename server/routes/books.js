@@ -12,7 +12,6 @@ router.get('/', (request, response, next) => {
 })
 
 router.get('/:id', (request, response, next) => {
-  console.log(response)
   const { id } = request.params
 
   pool.query('SELECT * FROM books WHERE id=$1', [id], (err, res) => {
